@@ -4,8 +4,14 @@ div.home {
 
 div.page1 {
     background-color: #121515;
+    color: yellow;
   }
   
+div.page2 {
+  background-color: #fe1371;
+  color: green;
+}
+
   .topnav {
     background-color: #e2caff;
     overflow: hidden;
