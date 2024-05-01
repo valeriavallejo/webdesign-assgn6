@@ -12,6 +12,10 @@ div.page2 {
   color: green;
 }
 
+div.centered {
+  padding: 10px, 100px, 10px, 100px;
+}
+
   .topnav {
     background-color: #e2caff;
     overflow: hidden;
