@@ -25,6 +25,7 @@ div.page2 {
 
 .staticCenter {
     position: fixed;
+    text-align: center;
     padding: 100px, 100px, 100px, 100px;
 
 }
