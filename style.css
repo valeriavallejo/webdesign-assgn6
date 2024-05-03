@@ -12,14 +12,23 @@ div.page2 {
   color: green;
 }
 
-div.centered {
-  padding: 10px, 100px, 10px, 100px;
+.centered {
+    position: static;
+    width: 100%;
+    text-align: center;
 }
 
 .right{
   float: right;
 
 }
+
+.staticCenter {
+    position: fixed;
+    padding: 100px, 100px, 100px, 100px;
+
+}
+
   .topnav {
     background-color: #e2caff;
     overflow: hidden;
