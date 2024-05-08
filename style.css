@@ -1,29 +1,38 @@
-div.home {
+.home {
+    width: 100%;
+    height:100%;
     background-color: #d1fff9;
   }
 
-div.page1 {
+.page1 {
+    width: 100%;
+    height: 100%;
     background-color: #121515;
     color: yellow;
-  }
-  
-div.page2 {
-  background-color: #fe1371;
-  color: green;
+}
+
+.page2 {
+    width: 100%;
+    height: 100%;
+    background-color: #fe1371;
+    color: green;
 }
 
 .centered {
-    position: static;
-    width: 100%;
     text-align: center;
 }
 
-.centred-content{
-  position: static;
+.centered-container{
   width: 50%;
-  text-align: center;
-  padding: 100px, 100px, 100px, 100px;
+  margin:0 auto;
 }
+
+.box {
+    width: 200px;
+    height: 50px;
+    text-align: left;
+}
+
 
 .right{
   float: right;
@@ -34,7 +43,6 @@ div.page2 {
     position: fixed;
     text-align: center;
     padding: 100px, 100px, 100px, 100px;
-
 }
 
   .topnav {
